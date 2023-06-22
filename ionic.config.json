@@ -1,0 +1,7 @@
+{
+  "name": "fotos-gram-front",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
