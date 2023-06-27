@@ -5,8 +5,9 @@ const config: CapacitorConfig = {
   appName: 'fotos-gram-front',
   webDir: 'www',
   server: {
-    androidScheme: 'https'
-  }
+    androidScheme: 'https',
+    cleartext: true,
+  },
 };
 
 export default config;

@@ -1,0 +1,58 @@
+// swiper-container,
+// swiper-container swiper-slide {
+//   width: 100%;
+//   height: 100%;
+// }
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide-login form .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.swiper-slide-login form {
+  width: 100%;
+}
+
+.swiper-slide-register .center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-avatar-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 120px;
+}
+
+.pick-avatar {
+  width: 80px;
+  opacity: 0.3;
+}
+
+.pick-avatar-select {
+  transition: opacity 0.5s linear;
+  opacity: 1 !important;
+}
